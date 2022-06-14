@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 60px;
+    border: 2px solid black;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar span {
+    padding-left: 20px;
+}
+
+.mainbody {
+    display: flex;
+}
+
+.left-part {
+    border: 2px solid black;
+    border-top: none;
+    width: 240px;
+    height: 559px;
+}
+
+.left-top {
+    width: 180px;
+    display: flex;
+    height: 18px;
+    margin-left: 15px;
+    padding-top: 8px;
+}
+
+.left-top span {
+    border: 2px solid black;
+    border-radius: 5px;
+    border-bottom: none;
+    width: 75px;
+    height: 18px;
+}
+
+.left-top span:first-child {
+    border-right: none;
+}
+
+.left-mid {
+    border: 2px solid black;
+    height: 220px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 16px;
+    padding-top: 6px;
+    margin-left: 15px;
+}
+
+.left-mid input {
+    width: 160px;
+    height: 20px;
+    padding-left: 10px;
+    margin-top: 3px;
+}
+
+.left-mid select {
+    width: 170px;
+    height: 25px;
+    margin-top: 3px;
+}
+
+.left-mid button {
+    width: 70px;
+    height: 30px;
+    margin-top: 3px;
+}
+
+.left-bottom {
+    border: 2px solid black;
+    width: 205px;
+    height: 110px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.left-bottom span {
+    padding-left: 10px;
+}
+
+.navbar-2 {
+    border: 2px solid black;
+    width: 1120px;
+    height: 65px;
+    border-left: none;
+    border-top: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_2_p1 {
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.nav_2_p2 {
+    margin-right: 10px;
+}
+
+.flight-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.flight-info {
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    height: 78vh;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.flight-booking {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width: 1050px;
+    margin-left: 34px;
+    font-size: 22px;
+}
+
+.part-1-f {
+    /* border: 1px solid red; */
+    width: 250px;
+}
+
+.part-2-f {
+    /* border: 1px solid red; */
+    width: 250px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 49px;
+}
+
+.part-3-f {
+    /* border: 1px solid red; */
+    width: 250px;
+    margin-left: 100px;
+}
+
+.pricing {
+    font-size: 45px;
+    width: 280px;
+}
+
+.sr-n {
+    font-size: 15px;
+}
+
+.sr-n-1 {
+    font-size: 15px;
+}
+
+.part-3-f img {
+    width: 240px;
+    height: 110px;
+    margin-left: 5px;
+}
+
+.part-3-f button {
+    width: 200px;
+    height: 30px;
+    margin-left: 30px;
+}
